@@ -4,28 +4,42 @@ body {
     background-color: #f5f5f5;
 }
 
-/* Top bordered section */
-.top-box {
-    border: 3px solid black;
-    padding: 20px;
-    background-color: white;
-    width: 100%;
-    box-sizing: border-box;
+/* Top Header */
+.header {
+    background-color: #bfbfbf; /* ash color */
+    text-align: center;
+    padding: 20px 0;
 }
 
-.top-box p {
-    margin: 8px 0;
+.header h1 {
+    color: white;
+    margin: 0;
+}
+
+/* Middle bordered box */
+.info-box {
+    width: 60%;
+    margin: 40px auto;
+    border: 3px solid black;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.info-box p {
+    margin: 10px 0;
     font-size: 18px;
 }
 
-/* Sections below */
-.section {
-    padding: 40px 20px;
-    margin: 20px;
+/* Extra sections */
+.content {
+    width: 60%;
+    margin: 20px auto;
     background-color: white;
-    border-radius: 8px;
+    padding: 20px;
+    border-radius: 6px;
 }
 
-.section h2 {
+.content h2 {
     margin-bottom: 10px;
 }
