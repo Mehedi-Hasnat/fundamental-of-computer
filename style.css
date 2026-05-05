@@ -6,9 +6,9 @@ body {
 
 /* Header */
 .header {
-    background-color: #bfbfbf; /* ash color */
+    background-color: #bfbfbf;
     text-align: center;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 .header h1 {
@@ -21,11 +21,11 @@ body {
     width: 60%;
     margin: 40px auto;
     border: 3px solid black;
-    border-radius: 20px; /* round shape */
+    border-radius: 20px;
     text-align: center;
     padding: 25px;
     background-color: white;
-    font-weight: bold; /* bold text */
+    font-weight: bold;
 }
 
 .info-box p {
@@ -33,13 +33,14 @@ body {
     font-size: 18px;
 }
 
-/* Extra Sections */
+/* Content Sections */
 .content {
     width: 60%;
     margin: 20px auto;
     background-color: white;
-    padding: 20px;
+    padding: 25px;
     border-radius: 8px;
+    line-height: 1.6;
 }
 
 .content h2 {
