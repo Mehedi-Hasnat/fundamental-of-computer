@@ -18,31 +18,25 @@ body {
 
 /* Info Box */
 .info-box {
-    width: 80%;
+    width: 60%;
     margin: 40px auto;
     border: 3px solid black;
-    border-radius: 25px;
-    background-color: white;
-    padding: 20px;
-}
-
-/* Horizontal Row */
-.info-row {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    font-weight: bold;
+    border-radius: 20px;
+    background-color: black; /* black box */
+    color: white; /* white text */
     text-align: center;
+    padding: 25px;
+    font-weight: bold;
 }
 
-.info-row span {
-    margin: 10px;
-    font-size: 16px;
+.info-box p {
+    margin: 10px 0;
+    font-size: 18px;
 }
 
 /* Content Sections */
 .content {
-    width: 80%;
+    width: 60%;
     margin: 20px auto;
     background-color: white;
     padding: 25px;
