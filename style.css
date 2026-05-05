@@ -18,24 +18,31 @@ body {
 
 /* Info Box */
 .info-box {
-    width: 60%;
+    width: 80%;
     margin: 40px auto;
     border: 3px solid black;
-    border-radius: 20px;
-    text-align: center;
-    padding: 25px;
+    border-radius: 25px;
     background-color: white;
-    font-weight: bold;
+    padding: 20px;
 }
 
-.info-box p {
-    margin: 10px 0;
-    font-size: 18px;
+/* Horizontal Row */
+.info-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info-row span {
+    margin: 10px;
+    font-size: 16px;
 }
 
 /* Content Sections */
 .content {
-    width: 60%;
+    width: 80%;
     margin: 20px auto;
     background-color: white;
     padding: 25px;
